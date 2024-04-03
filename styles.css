@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, sans-serif;
+}
+
+/* Estilos del encabezado */
+.titulo-principal{
+
+font-size: 5rem; /* Tamaño de fuente más grande */
+line-height: .01; /* Espaciado entre líneas */
+color: #fff;
+padding: 0 20px; /* Márgenes laterales menores */
+}
+
+
+header {
+    background-color: #f5efef;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+.call-button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.main-section {
+    background-color: #000000;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.additional-section {
+    background-image: url('img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.additional-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo-secundario {
+    font-size: 20px;
+   
+}
+.titulo-secundario2{
+    font-size: 40px;
+    margin-top: 250px; /* Aumenta el margen superior */
+    font-weight: bold;
+   
+}
+.titulo-secundario0{
+    font-size: 50px;
+    margin-top: 0px; /* Aumenta el margen superior */
+    font-weight: bold;
+   
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#footer-logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 250px;
+    height: auto;
+   
+}
+#logo {
+    width: 400px;
+    height: auto;
+    margin-top: 0; /* Eliminamos el margen superior */
+    margin-right: auto; /* Para alinear a la izquierda */
+    margin-left: 0; /* Eliminamos el margen izquierdo */
+}
+.imagen-marcas {
+    display: block;
+    margin: 0 auto; /* Esto centrará la imagen horizontalmente */
+    max-width: 100%; /* Esto asegura que la imagen no sea más ancha que el ancho de la pantalla */
+    height: auto; /* Esto permite que la altura de la imagen se ajuste automáticamente para mantener la proporción */
+    margin-bottom: 40px; /* Ajusta el margen inferior para separar del contenido siguiente */
+    
+}
+.fondo-titulo {
+    background-color: rgb(177, 25, 5);
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100vw;
+    position: absolute; /* Cambiar a posición absoluta */
+    left: 0;
+    right: 0;
+    margin-bottom: 40px;
+    z-index: 1; /* Asegurar que esté detrás de los otros elementos */
+}
+.fondo-titulo .titulo-secundario {
+    max-width: 1200px; /* Ajusta el ancho máximo del texto */
+    margin: 0 auto; /* Centra el texto horizontalmente */
+    color: white; /* Ajusta el color del texto para que sea visible en el fondo negro */
+    margin-bottom: 40px; /* Ajusta el margen inferior para separar del contenido siguiente */
+}
+.fondo-titulo .texto-descriptivo {
+    max-width: 1200px; /* Ajusta el ancho máximo del texto */
+    margin: 0 auto; /* Centra el texto horizontalmente */
+    color: white; /* Ajusta el color del texto para que sea visible en el fondo negro */
+    margin-bottom: 40px; /* Ajusta el margen inferior para separar del contenido siguiente */
+}
+
+@media only screen and (max-width: 768px) {
+    /* Aquí van los estilos para dispositivos móviles */
+    /* Estilos del encabezado */
+.titulo-principal {
+    font-size: 3rem; /* Reducir el tamaño de fuente para dispositivos móviles */
+    line-height: 1; /* Restablecer el espaciado entre líneas */
+    padding: 0 10px; /* Reducir los márgenes laterales */
+}
+
+header {
+    padding: 10px 5px; /* Reducir el relleno para dispositivos móviles */
+}
+
+#logo {
+    width: 200px; /* Reducir el tamaño del logotipo para dispositivos móviles */
+}
+
+.call-button {
+    padding: 8px 15px; /* Reducir el relleno del botón para dispositivos móviles */
+}
+
+.main-section {
+    padding: 30px 10px; /* Reducir el relleno para dispositivos móviles */
+}
+
+.additional-section {
+    padding: 30px 10px; /* Reducir el relleno para dispositivos móviles */
+}
+
+.titulo-secundario {
+    font-size: 18px; /* Reducir el tamaño de fuente para dispositivos móviles */
+}
+
+.titulo-secundario2 {
+    font-size: 30px; /* Reducir el tamaño de fuente para dispositivos móviles */
+    margin-top: 150px; /* Ajustar el margen superior para dispositivos móviles */
+}
+
+.titulo-secundario0 {
+    font-size: 40px; /* Reducir el tamaño de fuente para dispositivos móviles */
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    margin-bottom: 15px; /* Reducir el margen inferior para dispositivos móviles */
+    padding: 8px; /* Reducir el relleno para dispositivos móviles */
+}
+
+.imagen-marcas {
+    margin-bottom: 20px; /* Reducir el margen inferior para dispositivos móviles */
+}
+
+.fondo-titulo {
+    padding: 10px 0; /* Reducir el relleno para dispositivos móviles */
+    margin-bottom: 10px; /* Reducir el margen inferior para dispositivos móviles */
+}
+
+.fondo-titulo .titulo-secundario,
+.fondo-titulo .texto-descriptivo {
+    margin-bottom: 20px; /* Reducir el margen inferior para dispositivos móviles */
+}
+
+}
+
